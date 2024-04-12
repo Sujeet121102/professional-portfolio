@@ -1,0 +1,214 @@
+*{
+    padding:0;
+    margin: 0;
+
+}
+#container{
+    background: url(whatapp.jpg) no-repeat;
+    background-size: 130px;
+    display: flex;
+    flex-direction: column;
+     
+}
+#header{
+    border: 1px solid black;
+    background-color: grey;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+#header #image{
+    width: 20%;
+    height:100px;
+    border-radius: 100%;
+
+}
+#header #Detail{    
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+#header #Detail #Name{
+
+}
+#header #Detail #menu{
+    
+}
+#header #Detail #menu #menulist{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 40px;
+    margin-left: 200px; */
+}
+#header #Detail #menu #menulist li{
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+
+
+}
+#header #Detail #menu #menulist li a{
+    text-decoration: none;
+    /* padding: 5px; */
+
+}
+
+#header #image image{
+    /* height: 90px; */
+    height: 100px;
+    /* border-radius: 50px; */
+    border-radius: 50%;
+}
+#footer{
+    border: 1px solid black;
+    background-color: grey;
+    height: 55px;
+}
+
+#main{
+    border: 1px solid black;
+    background-color:white;
+    height: 570px;
+    overflow-x: scroll;
+
+}
+#main div{
+    /* height: 530px; */
+    /* border: 1px solid grey; */
+
+    margin: 5px;
+    padding:50px;
+    
+    padding-left: 240px;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-image: url(conimg.jpg); */
+    ;
+}
+#main #about{
+    height:540px;
+    
+    
+}
+#main #about1 p{
+    border: 1px solid black;
+    border-radius: 15%;
+    padding: 30px;
+    justify-content: center;  
+    align-items: center;
+     height: 200px;
+    width: 500px; 
+
+} 
+
+
+
+#main #Education{
+    height: 540px;
+    
+}
+#Education ul li{
+    margin-left: 20px;
+    padding-top: 20px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    box-sizing: content-box;
+   
+}
+#Education #small{
+    font-size: small;
+}
+#Education #small1{
+    font-size: small;
+}
+
+#Education #small2{
+    font-size: small;
+}
+
+#TechnicalSkills h2{
+    font-size: xx-large;
+    margin-left: 30px;  
+    padding: 20px;
+    padding-left: 825px;
+
+}
+
+#TechnicalSkills ul{
+    font-size: large;
+    margin-left: 20px;
+    padding: 5px;
+    padding-left: 850px;
+}
+#main #TechnicalSkills {
+    height: 540px;
+}
+
+
+#main #AcademicProject{
+    height: 540px;
+}
+
+#main #AcademicProject h2{
+    font-size: xx-large;
+    margin-left: 30px;  
+    padding: 20px;
+    padding-left: 185px;
+}
+#main #AcademicProject p{
+    font-size: large;
+    margin-left: 20px;
+    padding: 5px;
+    padding-left: 200px;
+}
+#main #contact{
+    height: 540px;
+}
+#contact div{
+    display: flex;
+    flex-direction: row;
+}
+#contact div p{
+
+    font-size: large;
+    margin-left: 20px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+#contact img{
+    height: 40px;
+    
+}
+
+
+ 
+#main #about{
+    background-image: url(imgabout.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 1054px 550px;
+    back */
+}
+#main #Education{
+    background-image: url(eduimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main #TechnicalSkills{
+    background-image: url(techimg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main #AcademicProject{
+    background-image: url(acadimg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main #contact{
+    background-image: url(conimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
